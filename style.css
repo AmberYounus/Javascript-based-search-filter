@@ -7,13 +7,12 @@
 }
 body {
     background-color: #f8f9fd;
-    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    margin: 0;
+   
 }
 .container {
     border-radius: 5px;
@@ -43,9 +42,7 @@ body {
     padding: 12px 24px;
     width: 100%;
 }
-.header input:focus {
-    outline: none;
-}
+
 .user-list {
     background-color: #fff;
     list-style-type: none;
@@ -63,19 +60,4 @@ body {
     object-fit: cover;
     height: 50px;
     width: 50px;
-}
-.user-list .user-info {
-    margin-left: 10px;
-}
-.user-list .user-info h4 {
-    margin: 0 0 10px;
-}
-.user-list .user-info p {
-    font-size: 12px;
-}
-.user-list li:not(:last-of-type) {
-    border-bottom: 1px solid #eee;
-}
-.user-list li.hide {
-    display: none;
 }
