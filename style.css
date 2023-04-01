@@ -20,9 +20,7 @@ body {
     overflow: hidden;
     width: 300px;
 }
-.title {
-    margin: 0;
-}
+
 .subtitle {
     display: inline-block;
     margin: 9px 0 37px;
@@ -46,8 +44,6 @@ body {
 .user-list {
     background-color: #fff;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     max-height: 400px;
     overflow-y: auto;
 }
